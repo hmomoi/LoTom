@@ -58,6 +58,9 @@
   - ご使用の時は本リポジトリをフォークしてお使いください
     - ※フォークしてマクロ等にパスワードなどを設定する際はリポジトリが public になってしまい情報漏洩につながりますのでご注意ください
 
+![image](https://github.com/hmomoi/LOTOM/blob/main/keymap-drawer/LOTOM.svg)
+
+
 ### レイヤー
 
 - レイヤー 0 がデフォルトです
