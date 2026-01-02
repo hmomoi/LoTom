@@ -1,0 +1,108 @@
+parse_config:
+  raw_binding_map:
+    '&sys_reset': Reset
+    '&bootloader': Boot
+    '&caps_word': Caps Word
+
+    # Empty
+    "&none":
+      tap: $$mdi:minus-circle-outline$$
+      type: none
+
+    # Whitespace
+    "&bkspc_del":
+      type: backspace
+      tap: $$mdi:backspace$$
+      shifted: $$mdi:backspace-reverse-outline$$
+
+    # Bluetooth
+    "&bt BT_SEL 0":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
+      hold: 1
+    "&bt BT_SEL 1":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
+      hold: 2
+    "&bt BT_SEL 2":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
+      hold: 3
+    "&bt BT_SEL 3":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
+      hold: 4
+    "&bt BT_SEL 4":
+      tap: $$mdi:bluetooth-connect$$
+      shifted: ""
+      hold: 5
+    "&out OUT_TOG":
+      shifted: $$mdi:usb$$
+      tap: $$mdi:toggle-switch$$
+      hold: $$mdi:bluetooth$$
+
+    # Reset
+    "&sys_reset":
+      type: bootloader
+      tap: $$mdi:backup-restore$$
+    "&bootloader":
+      tap: $$mdi:progress-download$$
+    "&rst_boot 0 0":
+      type: bootloader
+      tap: $$mdi:backup-restore$$
+      hold: $$mdi:progress-download$$
+
+  zmk_keycode_map:
+    # Symbols
+    EXCLAMATION: "!"
+    EXCL: "!"
+    C_PLAY_PAUSE: "▷||"
+    ESCAPE: "ESC"
+    COMMA: ","
+    DOT: "."
+    DOUBLE_QUOTES: '"'
+    SQT: "'"
+    SLASH: "/"
+    MINUS: "-"
+    GRAVE: "`"
+    LEFT_BRACKET: "["
+    RIGHT_BRACKET: "]"
+    LEFT_BRACE: "{"
+    RIGHT_BRACE: "}"
+    BACKSLASH: "\\"
+    AT_SIGN: "@"
+    LANGUAGE_1: "かな"
+    LANGUAGE_2: "英数"
+    LANG_HANJA: "英数"
+    LANG_HANGEUL: "かな"
+    SEMICOLON: ";"
+    COLON: ":"
+    LEFT_PARENTHESIS: "("
+    RIGHT_PARENTHESIS: ")"
+    TILDE: "~"
+    SINGLE_QUOTE: "'"
+    EQUAL: "="
+    PLUS: "+"
+    UNDER: "_"
+    POUND: "#"
+    DOLLAR: "$"
+    PERCENT: "%"
+    CARET: "^"
+    AMPERSAND: "&"
+    ASTERISK: "*"
+    LGUI: $$mdi:microsoft-windows$$
+    UP_ARROW: $$mdi:arrow-up-bold$$
+    DOWN_ARROW: $$mdi:arrow-down-bold$$
+    LEFT_ARROW: $$mdi:arrow-left-bold$$
+    RIGHT_ARROW: $$mdi:arrow-right-bold$$
+    PAGE_UP: $$mdi:transfer-up$$
+    PAGE_DOWN: $$mdi:transfer-down$$
+    C_VOL_UP: $$mdi:volume-high$$
+    C_VOL_DN: $$mdi:volume-low$$
+    BACKSPACE: $$mdi:backspace$$
+    DELETE: $$mdi:backspace-reverse$$
+
+draw_config:
+  dark_mode: auto
+  glyph_tap_size: 18
+  footer_text: 'LOTOM KEYMAPS | Created with keymap-drawer' 
