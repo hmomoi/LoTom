@@ -41,7 +41,7 @@ layers:
   - {t: /, h: SCROLL}
   - LCTRL
   - LEFT ALT
-  - LEFT COMMAND
+  - LEFT GUI
   - LEFT SHIFT
   - {t: SPACE, h: NUM}
   - Gui+SPACE
@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - LCTRL
   - LEFT ALT
-  - LEFT COMMAND
+  - LEFT GUI
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
