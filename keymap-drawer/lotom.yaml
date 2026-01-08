@@ -40,11 +40,11 @@ layers:
   - .
   - {t: /, h: SCROLL}
   - LCTRL
-  - LEFT ALT
   - LEFT GUI
+  - LEFT ALT
   - LEFT SHIFT
   - {t: SPACE, h: NUM}
-  - Gui+SPACE
+  - SPACE
   - ENTER
   - {t: '$$mdi:backspace$$', h: ARROW}
   - {t: ESC, h: FUNCTION}
@@ -348,3 +348,5 @@ combos:
   k: かな
 - p: [17, 16]
   k: 英数
+- p: [2, 3]
+  k: TAB
