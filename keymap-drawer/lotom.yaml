@@ -89,8 +89,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LCTRL
-  - LEFT ALT
   - LEFT GUI
+  - LEFT ALT
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
