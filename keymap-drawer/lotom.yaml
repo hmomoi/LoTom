@@ -47,7 +47,7 @@ layers:
   - Gui+SPACE
   - ENTER
   - {t: '$$mdi:backspace$$', h: ARROW}
-  - {t: ESC, h: SCROLL}
+  - {t: ESC, h: FUNCTION}
   - ']'
   MOUSE:
   - {t: ▽, type: trans}
@@ -292,7 +292,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - F12
   BT:
   - {t: ▽, type: trans}
