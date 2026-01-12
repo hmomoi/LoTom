@@ -163,9 +163,9 @@ layers:
   - Ctl+$$mdi:arrow-right-bold$$
   - Gui+P
   - TAB
-  - Alt+Gui+$$mdi:arrow-left-bold$$
+  - {t: ▽, type: trans}
   - Gui+LEFT
-  - Gui+Alt+$$mdi:arrow-right-bold$$
+  - {t: ▽, type: trans}
   - '['
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,9 +175,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - Gui+K
   - LCMD
-  - Gui+Sft+$$mdi:arrow-left-bold$$
   - {t: ▽, type: trans}
-  - Gui+Sft+$$mdi:arrow-right-bold$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,7 +202,7 @@ layers:
   - '`'
   - '7'
   - '8'
-  - Gui+Sft+4
+  - PRINTSCREEN
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
