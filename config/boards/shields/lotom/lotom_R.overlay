@@ -1,7 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
-#include <#include "input/processors/sensor_rotation.dtsi">
+#include "input/processors/sensor_rotation.dtsi">
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <physical_layouts.dtsi>
 #include "lotom.dtsi"
