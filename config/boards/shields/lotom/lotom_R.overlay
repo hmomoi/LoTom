@@ -1,7 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
-#include "input/processors/sensor_rotation.dtsi">
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <physical_layouts.dtsi>
 #include "lotom.dtsi"
@@ -40,16 +39,6 @@
         compatible = "zmk,input-listener";
         status = "disabled";
         device = <&trackball>;
-        input-listener = <&sensor_rotation>;
-    };
-}
-/{
-    input_prosessors {
-        sensor_rotation: sensor_rotation {
-            compatible = "zmk,input-processor-rotation";
-            #input-processor-cells = <0>;
-            rotation-angle  = <22>;
-        };
     };
 };
 
