@@ -68,7 +68,7 @@
 &trans     &trans
 &trans     &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
 &trans     &trans        &trans        &trans          &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans     &trans        &trans        &trans          &trans  &trans  &trans  &trans  &mkp MB4    &trans    &mkp MB5    &trans
+&trans     &trans        &trans        &trans          &trans  &trans  &trans  &trans  &mkp MB4  &trans    &mkp MB5    &trans
 &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans  &trans  &trans  &mo 3   &trans    &trans
             >;
 
