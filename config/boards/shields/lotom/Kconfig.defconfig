@@ -42,6 +42,9 @@ if SHIELD_LOTOM_L
 
     config ZMK_SPLIT
         default y
+        
+    config MIPI_DBI
+        bool
 
     if ZMK_DISPLAY
         config I2C
