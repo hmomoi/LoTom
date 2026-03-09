@@ -16,12 +16,12 @@
             tap-ms = <20>;
         };
 
-        scroll_left_right: behavior_sensor_rotate_mouse_wheel_left_right {
+        scroll_left_right: behavior_sensor_rotate_mw_lr {
                 compatible = "zmk,behavior-sensor-rotate";
                 label = "ENCODER_MSC_RIGHT_LEFT";
                 #sensor-binding-cells = <0>;
                 bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
-                // 追加: スクロールのタップ時間を設定 (20ms)
+
                 tap-ms = <20>;
             };         
 
