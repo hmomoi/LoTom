@@ -17,13 +17,13 @@
         };
 
         scroll_left_right: behavior_sensor_rotate_mw_lr {
-                compatible = "zmk,behavior-sensor-rotate";
-                label = "ENCODER_MSC_RIGHT_LEFT";
-                #sensor-binding-cells = <0>;
-                bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_RIGHT_LEFT";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
 
-                tap-ms = <20>;
-            };         
+            tap-ms = <20>;
+        };
 
         tab_slide: behavior_sensor_rotate_tab_slide {
             compatible = "zmk,behavior-sensor-rotate";
@@ -74,11 +74,11 @@
 
         MOUSE {
             bindings = <
-&trans     &trans
-&trans     &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&trans     &trans        &trans        &trans          &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans     &trans        &trans        &trans          &trans  &trans  &trans  &trans  &mkp MB4  &trans    &mkp MB5    &trans
-&kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &trans  &trans  &trans  &mo 3   &trans    &trans
+&trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &trans    &mkp MB5  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mo 3   &trans    &trans
             >;
 
             sensor-bindings = <
@@ -92,8 +92,8 @@
 &trans      &trans
 &kp ESCAPE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F12     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F12     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
