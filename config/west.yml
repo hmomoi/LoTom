@@ -5,7 +5,7 @@ manifest:
     - name: badjeff
       url-base: https://github.com/badjeff
     - name: pukuhei
-      url-base: https://github.com/pukuhei      
+      url-base: https://github.com/pukuhei
     - name: prospector
       url-base: https://github.com/t-ogura
   projects:
